@@ -1,5 +1,5 @@
 canvas = document.getElementById("myCanvas");
-ctx= canvas.getContext("2d");
+ctx = canvas.getContext("2d");
 
 /*
     Use beginPath() function to begin a path.
@@ -23,40 +23,42 @@ ctx.stroke();
 with 40 as radius, 0 startAngle and 2 * Math.PI endAngle.
 */
 
-ctx.beginPath;
+ctx.beginPath();
 ctx.strokeStyle = "blue";
 ctx.lineWidth = 5;
-ctx.rect(250, 210, 40, 0, 2*Math.PI);
+ctx.arc(250, 210, 40, 0, 2*Math.PI);
 ctx.stroke();
 
 // Similarly, create a black circle with position 350 and 210
 
-ctx.beginPath;
+ctx.beginPath();
 ctx.strokeStyle = "black";
 ctx.lineWidth = 5;
-ctx.rect(350, 210, 40, 0, 2*Math.PI);
+ctx.arc(350, 210, 40, 0, 2*Math.PI);
 ctx.stroke();
 
 // Similarly, create a red circle with position 210 and 40
 
-ctx.beginPath;
+ctx.beginPath();
 ctx.strokeStyle = "red";
 ctx.lineWidth = 5;
-ctx.rect(210, 40, 40, 0, 2*Math.PI);
+ctx.arc(450, 210, 40, 0, 2*Math.PI);
 ctx.stroke();
 
 // Similarly, create an orange circle with position 300 and 250
 
-ctx.beginPath;
+ctx.beginPath();
 ctx.strokeStyle = "orange";
 ctx.lineWidth = 5;
-ctx.rect(300, 250, 40, 0, 2*Math.PI);
+ctx.arc(300, 250, 40, 0, 2*Math.PI);
 ctx.stroke();
 
 // Similarly, create a green circle with position 400 and 250
 
-ctx.beginPath;
+ctx.beginPath();
 ctx.strokeStyle = "green";
 ctx.lineWidth = 5;
-ctx.rect(400, 250, 40, 0, 2*Math.PI);
+ctx.arc(400, 250, 40, 0, 2*Math.PI);
 ctx.stroke();
+
+
